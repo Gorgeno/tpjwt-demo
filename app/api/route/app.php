@@ -11,7 +11,8 @@
 use think\facade\Route;
 use xiaodi\JWTAuth\Middleware\Jwt;
 
-Route::get('v1/login/signup', 'v1.Login/signup');
+Route::post('v1/login/index', 'v1.Login/index');
+Route::post('v1/login/signup', 'v1.Login/signup');
 
 Route::group('v1/user', function () {
     Route::post('logout', 'v1.User/logout'); //登出
