@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace app\api\controller;
+namespace app\api\controller\v1;
 
 use think\facade\Request;
 use think\Response;
 
-class Base
+abstract class Base
 {
     /**
      * @param $data

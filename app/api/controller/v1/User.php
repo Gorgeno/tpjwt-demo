@@ -1,9 +1,9 @@
 <?php
 declare (strict_types = 1);
 
-namespace app\api\controller;
+namespace app\api\controller\v1;
 
-class Index extends Base
+class User extends Base
 {
     public function index()
     {
